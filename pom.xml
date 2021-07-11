@@ -15,6 +15,14 @@
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
 
+   <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps</url>
+       </repository>
+   </distributionManagement>
+	
     <repositories>
         <repository>
             <id>vaadin-prereleases</id>
